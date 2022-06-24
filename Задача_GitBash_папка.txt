@@ -1,13 +1,8 @@
-# Переходим в директорию будущего репозитория
 $ cd wild_animals
 
-
-# Создаем репозиторий
 $ git init
 Initialized empty Git repository in /Users/tati/Documents/Git Repos/Course Git/wild_animals/.git/
 
-
-# Структура папки .git сразу после создания репозитория
 $ tree .git
 .git
 +-- HEAD
@@ -15,17 +10,15 @@ $ tree .git
 +-- description
 +-- hooks
 +-- info
-¦   L-- exclude
+В¦   L-- exclude
 +-- objects
-¦   +-- info
-¦   L-- pack
+В¦   +-- info
+В¦   L-- pack
 L-- refs
     +-- heads
     L-- tags
 
 
-# Текущее состояние рабочей директории
-# Есть неотслеживаемые файлы
 $ git status
 On branch main
 
